@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
       }else if (authController.isLoggedIn){
         Get.off(()=> const MainScreen());
       } else {
-        Get.off(()=> const SigninScreen());
+        Get.off(()=>  SigninScreen());
       }
     });
 
@@ -93,7 +93,7 @@ class SplashScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          "FASHION",
+                          "SMART",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 32,
